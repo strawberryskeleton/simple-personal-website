@@ -9,5 +9,44 @@
 
 
 body {
-    
+    height: 100vh;
+    background-color: #333;
+    background: url('./assets/bg.png');
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+nav {
+    width: 40%;
+    background-color: #fb7e93;
+    margin-top: 3rem;
+    padding: 1.25rem 6rem;
+    border-radius: 1rem;
+}
+
+nav .nav-list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.25rem;
+}
+
+nav .nav-list a.active {
+    background-color: #f16179;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
 }
