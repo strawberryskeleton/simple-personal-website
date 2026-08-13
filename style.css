@@ -45,10 +45,18 @@ nav .nav-list {
     font-size: 1.25rem;
 }
 
-nav .nav-list a.active {
-    background-color: #f16179;
+nav .nav-list a {
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
+    transition: all 0.2s ease-in;
+}
+
+nav .nav-list a.active {
+    background-color: #f16179;
+}
+
+nav .nav-list a:hover {
+    background-color: pink;
 }
 
 
@@ -118,4 +126,28 @@ main #links {
     justify-content: space-between;
     text-transform: uppercase;
     letter-spacing: 2px;
+}
+
+#links .link-list a {
+    transition: all 0.2s ease-in;
+}
+
+#links .link-list a:hover {
+    color: pink;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #fb7e93;
+}
+
+footer a {
+    color: #b8cff9;
+    transition: all 0.2s ease-in;
+}
+
+footer a:hover {
+    color: #84acf7;
 }

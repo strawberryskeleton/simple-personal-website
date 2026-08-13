@@ -28,3 +28,8 @@ Feature Checklist:
     Apply styles to text, image, and navigation bar elements using CSS rules.
     Use classes and/or ids to style CSS elements.
     Does not include any personally identifiable information such as last name (use an initial), email, address, phone number, social media account names, and school name.
+
+
+
+credits:
+bg - https://in.pinterest.com/pin/464785624052200507/
