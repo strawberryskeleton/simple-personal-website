@@ -33,3 +33,4 @@ Feature Checklist:
 
 credits:
 bg - https://in.pinterest.com/pin/464785624052200507/
+tech stack icons - https://www.tech-stack-icons.com/
