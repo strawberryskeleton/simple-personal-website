@@ -62,8 +62,54 @@ nav .nav-list a:hover {
 
 main {
     width: 60%;
-    flex-grow: 0.7;
-    background-color: cornflowerblue;
+    flex-grow: 0.5;
+    /* background-color: cornflowerblue; */
+    /* padding: 2rem; */
+}
+
+main h2 {
+    font-size: 3rem;
+    margin-bottom: 2.5rem;
+}
+
+main #projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+#projects .card {
+    background-color: #fb7e93;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#projects .card .project-img {
+    height: 12rem;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+#projects .card .project-title {
+    padding: 0.5rem 1rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#projects .card .project-links {
+    padding-right: 1.5rem;
+    text-align: right;
+    margin-bottom: 1rem;
+    color: #ef4763;
+}
+
+#projects .card .project-links a img {
+    width: 2rem;
 }
 
 
