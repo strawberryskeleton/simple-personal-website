@@ -1,37 +1,28 @@
-# simple-personal-website
+# Simple Personal Website
 a very simple personal portfolio website
 
+> it's called simple personal websoite because i wish to make a cool 3d/animated/game type personal websote someday which will not be simple.
+
+## Features
+It has three pages:
+1. Home Page: an introductory page with my name and a few social links
+2. About Page: a page about me with my tech skills and hobbies listed
+3. Projects Page: a page contaning some of my previous projects
+
+It has a Pink and Black theme to match my username Strawberry Skeleton (pink for strawberry, and black for skeleton + i love dark mode)
 
 
-Project Requirements:
-  Include one home HTML page that's all about you!
-  Include a navigation bar that is included on all your website's pages.
-  Include one portfolio HTML page to showcase your projects.
-  Have all text, image(s), links, and/or videos on the page contained within appropriate HTML elements.
-  Include alt text for every image in your website.
-  Apply styles to text, image, and navigation bar elements using CSS rules.
-  Use classes and/or IDs to style CSS elements.
+## Project Screenshots
 
-Extensions:
-  Customize the fonts
-  Add some fancy CSS styles
-  Embed YouTube videos
-  Add another page or more content
+![home page](./screenshots/screenshot_home.png)
+
+![about page](./screenshots/screenshot_about.png)
+
+![projects page](./screenshots/screensot_projects.png)
 
 
-Feature Checklist:
-    Include one home HTML page that's all about you!
-    Include a navigation bar that is included on all your website's pages.
-    Include one portfolio HTML page to showcase your projects.
-    Have all text, images, links, and or videos on the page contained within appropriate HTML elements.
-    Include alt text for every image in your website.
-    Apply styles to text, image, and navigation bar elements using CSS rules.
-    Use classes and/or ids to style CSS elements.
-    Does not include any personally identifiable information such as last name (use an initial), email, address, phone number, social media account names, and school name.
-
-
-
-credits:
-bg - https://in.pinterest.com/pin/464785624052200507/
-tech stack icons - https://www.tech-stack-icons.com/
-link icon - https://www.svgrepo.com/svg/532869/link-alt-1?edit=true
+## Credits
+- made by me
+- Background Image: https://in.pinterest.com/pin/464785624052200507/
+- Tech Stack Icons - https://www.tech-stack-icons.com/
+- Link Icon - https://www.svgrepo.com/svg/532869/link-alt-1
