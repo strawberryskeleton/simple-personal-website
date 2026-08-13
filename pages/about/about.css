@@ -62,7 +62,7 @@ nav .nav-list a:hover {
 
 main {
     width: 60%;
-    flex-grow: 0.65;
+    flex-grow: 0.5;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -73,7 +73,7 @@ main #intro {
     grid-row: span 2 / span 2;
     background-color: #84acf7;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
 #intro p {
@@ -86,7 +86,7 @@ main #intro {
 main #tech-skills {
     background-color: #fb7e93;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
 h2 {
@@ -105,27 +105,43 @@ h2 {
 #tech-skills .tech-list {
     display: flex;
     list-style-type: none;
+    gap: 0.5rem;
     /* margin-bottom: 1.75rem; */
 }
 
 #tech-skills .tech-list li {
     height: 4rem;
     width: 4rem;
+    border-radius: 50%;
     padding: 0.5rem;
+    background-color: #f16179;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #tech-skills .tech-list li img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
 }
+
 
 main #hobbies {
     grid-column-start: 2;
     background-color: #fb7e93;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 2.5rem;
 }
 
+#hobbies .hobby-list {
+    margin-top: 2rem;
+    margin-left: 3rem;
+    font-size: 1.3rem;
+}
+
+#hobbies .hobby-list li {
+    margin-bottom: 0.75rem;
+}
 
 
 
