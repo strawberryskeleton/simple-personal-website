@@ -71,9 +71,17 @@ main {
 
 main #intro {
     grid-row: span 2 / span 2;
-    background-color: cornflowerblue;
+    background-color: #84acf7;
     border-radius: 1rem;
+    padding: 2rem;
 }
+
+#intro p {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
 
 main #tech-skills {
     background-color: #fb7e93;
@@ -83,8 +91,7 @@ main #tech-skills {
 
 h2 {
     display: inline;
-    font-size: 2rem;
-    /* margin-bottom: 1.5rem; */
+    font-size: 2.25em;
     border-bottom: 5px dashed #ef4763;
 }
 
@@ -114,8 +121,9 @@ h2 {
 
 main #hobbies {
     grid-column-start: 2;
-    background-color: cadetblue;
+    background-color: #fb7e93;
     border-radius: 1rem;
+    padding: 2rem;
 }
 
 
