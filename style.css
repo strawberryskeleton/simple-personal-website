@@ -56,7 +56,7 @@ nav .nav-list a.active {
 }
 
 nav .nav-list a:hover {
-    background-color: pink;
+    background-color: #f16179;
 }
 
 
@@ -135,6 +135,7 @@ main #links {
 #links .link-list a:hover {
     color: pink;
 }
+
 
 footer {
     width: 100%;
