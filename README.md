@@ -21,6 +21,12 @@ It has a Pink and Black theme to match my username Strawberry Skeleton (pink for
 ![projects page](./screenshots/screensot_projects.png)
 
 
+## Local Development
+1. clone this github repo to your device
+2. run (by double clicking) `index.html` from the root/ directory
+   > all assets needed are included in the repo, and running the project locally does not need any further changes
+
+
 ## Credits
 - made by me
 - Background Image: https://in.pinterest.com/pin/464785624052200507/
